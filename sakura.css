@@ -1,0 +1,342 @@
+/* Sakura.css v1.3.1
+ * ================
+ * Minimal css theme.
+ * Forked project: https://github.com/oxalorg/sakura/
+ * Last updated: 07/12/21
+ */
+
+html {
+  font-size: 62.5%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif; }
+
+body {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  max-width: 65em;
+  margin: auto;
+  float: center;
+  color: #e3e3e3;
+  background-color: #4e4e4e;
+  padding: 12px; }
+
+#main {
+   font-size: 1.8rem;
+   line-height: 1.5;
+   max-width: 65em;
+   margin: auto;
+   float: center;
+   color: #e7e7e7;
+   background-color: #3b3b3b;
+   padding: 26px;
+   border-radius: 10px; }
+
+#main p {
+   text-align: justify;
+   margin-bottom: 0.6em;
+   color: #dadada;
+   font-size: 1.8rem; }
+
+#main h3 {
+  font-size: 1.75em;
+  margin-bottom: 1.0em;
+  color:#ffd200; }
+
+#main ul {
+      	list-style: none;
+      	line-height: 1.8em;
+      	margin-bottom: 1.8em; }
+
+#main h6 {
+font-size: 2.0em;
+margin-bottom: 1.0em;
+color:#3b3b3b; }
+
+#navi {
+    	width: 16em;
+    	float: right;
+    	margin: auto;
+      background-color: #3b3b3b;
+      padding: 26px;
+      border-radius: 10px; }
+
+#navi p {
+    	text-align: justify;
+    	margin-bottom: 0.1em;
+    	color: #ffffff;
+    	font-size: 0.8em; }
+
+#navi h3 {
+    	font-size: 1.6em;
+    	border-bottom: dashed 1px #ffffff;
+    	margin-bottom: 1.0em; }
+
+#navi ul {
+    	list-style: none;
+    	line-height: 1.8em;
+    	margin-bottom: 1.8em; }
+
+#navi li {
+    	border-bottom: dashed 1px #ffffff; }
+
+#bottomspace {
+      padding-top: 5.0em;
+      font-size: 0.1em;
+      color: #3b3b3b;
+      padding-left: 0.0em;
+      clear: both; }
+
+#footer {
+      padding-top: 1.0em;
+      font-size: 0.8em;
+      color: #ffffff;
+      padding-left: 0.0em;
+      clear: both; }
+
+@media (max-width: 684px) {
+  body {
+    font-size: 1.53rem; } }
+
+@media (max-width: 382px) {
+  body {
+    font-size: 1.35rem; } }
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  font-family: arial, serif;
+  font-weight: 600;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word; }
+
+h1 {
+  font-size: 2.35em; }
+
+h2 {
+  font-size: 2.00em; }
+
+h3 {
+  font-size: 1.75em;
+  margin-bottom: 0.8em;
+  border-bottom: 1.8px dashed #cfb436;
+  width: 64%;
+  color:#ffd200; }
+
+h4 {
+  font-size: 1.75em;
+  margin-bottom: 0.4em;
+  padding-left: 0.7em;
+  color:#ececec; }
+
+h5 {
+  font-size: 1.25em; }
+
+h6 {
+  border-top: dashed 1px #ececec;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+  font-size: 0.9em; }
+
+p {
+  margin-top: 0px;
+  margin-bottom: 2.5rem; }
+
+small, sub {
+  font-size: 87%; }
+
+sup {
+  font-size: 67%; }
+
+hr {
+    border: 1px dashed #ececec;
+    margin-bottom: 0.8em;
+    width: 64%;
+    margin: auto;
+    float: left; }
+
+a {
+  	color: #ffd200;
+  	text-decoration: none; }
+
+a:hover {
+  	color: #ffba00;
+  	text-decoration: underline; }
+
+ul {
+  list-style: none;
+  padding-left: 1.4em;
+  margin-top: 0px;
+  margin-bottom: 2.0rem; }
+
+li {
+  margin-bottom: 0.4em; }
+
+ol  {
+  	list-style: square;
+  	line-height: 1.8em;
+  	margin-bottom: 1.0em; }
+
+blockquote {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 1em;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  padding-right: 0.8em;
+  border-left: 5px solid #1d7484;
+  margin-bottom: 2.5rem;
+  background-color: #f1f1f1; }
+
+blockquote p {
+  margin-bottom: 0; }
+
+img {
+  height: auto;
+  text-align: center;
+  max-width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0.2rem; }
+
+figure {
+    max-width: 100%;
+    margin: 0.1em 0;
+    text-align: center; }
+
+figcaption {
+    font-size: small;
+    text-align: center; }
+
+video {
+    width: 65%;
+    height: auto; }
+
+pre {
+  background-color: #272727;
+  display: block;
+  padding: 1em;
+  overflow-x: auto;
+  margin-top: 0px;
+  margin-bottom: 2.5rem;
+  border-radius: 10px; }
+
+code {
+  font-family: monospace;
+  color: #ffffff;
+  background-color: #272727;
+  padding: 0.2em; }
+
+pre > code {
+  padding: 0;
+  background-color: transparent;
+  white-space: pre; }
+
+samp {
+    font-family: monospace;
+    color: #ffffff;
+    background-color: #272727;
+    padding: 0.2em; }
+
+pre kbd {
+    color: #f1e23e; }
+
+table {
+  text-align: justify;
+  width: 100%;
+  border-collapse: collapse; }
+
+td, th {
+  padding: 0.5em;
+  border-bottom: 1px solid #f1f1f1; }
+
+input, textarea {
+  border: 1px solid #4a4a4a; }
+  input:focus, textarea:focus {
+  border: 1px solid #1d7484; }
+
+textarea {
+  width: 100%; }
+
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+  display: inline-block;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #1d7484;
+  color: #f9f9f9;
+  border-radius: 1px;
+  border: 1px solid #1d7484;
+  cursor: pointer;
+  box-sizing: border-box; }
+  .button[disabled], button[disabled], input[type="submit"][disabled], input[type="reset"][disabled], input[type="button"][disabled] {
+  cursor: default;
+  opacity: .5; }
+  .button:focus:enabled, .button:hover:enabled, button:focus:enabled, button:hover:enabled, input[type="submit"]:focus:enabled, input[type="submit"]:hover:enabled, input[type="reset"]:focus:enabled, input[type="reset"]:hover:enabled, input[type="button"]:focus:enabled, input[type="button"]:hover:enabled {
+  background-color: #982c61;
+  border-color: #982c61;
+  color: #f9f9f9;
+  outline: 0; }
+
+textarea, select, input {
+  color: #4a4a4a;
+  padding: 6px 10px;
+  /* The 6px vertically centers text on FF, ignored by Webkit */
+  margin-bottom: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; }
+  textarea:focus, select:focus, input:focus {
+  border: 1px solid #1d7484;
+  outline: 0; }
+
+input[type="checkbox"]:focus {
+  outline: 1px dotted #1d7484; }
+
+label, legend, fieldset {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600; }
+
+/* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%;
+}
+
+ .fa:hover {
+   opacity: 0.9;
+ }
+
+ .fa-youtube {
+   background: #4b4b4b;
+   color: white;
+}
+
+
+ .fa-twitter {
+   background: #4b4b4b;
+   color: white;
+}
+
+ .fa-bandcamp {
+    background: #4b4b4b;
+    color: white;
+}
+
+ .fa-github {
+    background: #4b4b4b;
+    color: white;
+}
+
+ .fa-reddit {
+     background: #4b4b4b;
+     color: white;
+}
